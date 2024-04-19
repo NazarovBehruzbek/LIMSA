@@ -3,14 +3,14 @@ import Layout from "../Layout";
 import Home from "../Pages/Home";
 
 const router = createBrowserRouter([
-    {
-        path:"/",
-        element: <Layout/>,
-        children:[
-           {
-            path:"/",
-            element: <Home/>
-           }
-        ]
-    }
-])
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+    ],
+  },
+]);
