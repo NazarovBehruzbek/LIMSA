@@ -9,21 +9,20 @@
   width: 88%;
   margin: 0 auto;
 }
+
 :root{
   --main-color:#79349E;
   --main-font: cursive;
   --second-c: rgb(187, 101, 3);
 }
-a{
-  color:black;
+a {
+  color: black;
 }
 .active {
-  color:#79349E
+  color: #79349e;
 }
-@media screen and (max-width:600px) {
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: 90%;
   }
-  
 }
-
