@@ -10,8 +10,8 @@
   margin: 0 auto;
 }
 
-:root {
-  --main-color: #79349e;
+:root{
+  --main-color:#79349E;
   --main-font: cursive;
   --second-c: rgb(187, 101, 3);
 }
