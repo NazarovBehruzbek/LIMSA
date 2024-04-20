@@ -2,9 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 .container {
   max-width: 1300px;
-  width: 90%;
+  width: 88%;
   margin: 0 auto;
+}
+
+:root {
+  --main-color: #79349e;
+  --main-font: cursive;
+  --second-c: rgb(187, 101, 3);
+}
+a {
+  color: black;
+}
+.active {
+  color: #79349e;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
 }
